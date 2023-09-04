@@ -1,5 +1,5 @@
 function pts = findCovars(data, vpt)
-% FINDPOINTS     Locate point on torus by its parameterization
+% FINDCOVARS     Locate covariance matrix for point on torus by its parameterization
 
 npt = size(vpt,1);
 rho = data.rho;
